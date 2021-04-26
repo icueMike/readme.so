@@ -183,7 +183,7 @@ const Home = () => {
             </h2>
             <div className="flex justify-center mt-4">
               <a
-                href="https://github.com/katherinecodes/readme.so"
+                href="https://github.com/katherinepeterson/readme.so" 
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="github logo"
