@@ -24,6 +24,37 @@ benim-projem'i npm kullanarak yükleyin
     `,
   },
   {
+    slug: 'blog_post',
+    name: 'Blog Gönderisi',
+    markdown: `
+
+    Bunu nasıl kullanırım?: Bu günlerde kullanılan basit, çoğu blog [Ön Madde](https://jekyllrb.com/docs/front-matter/) genellikle bir düzen veya diğer meta verileri ayarlamak için kullanılır. Markdown ancak sadece Jekyll, Hugo ve benzeri başsız cms ile bir blog yazısı olacaksa kullanılabilir.
+
+    Bunu bir blog gönderisi olarak kullanmamaya planlıyorsanız, lütfen bunu kullanmayın! EĞER öyleyse, lütfen datasection-templates-en_EN.js klasörünüzün içindeki 31-33 satırlarını silin.
+
+    Başlamak için aşağıdaki satırları doldurmanız yeterlidir: başlık: Yazının Başlığı, Yazar: Adınız vb.
+    "Düzen: posta" ya dokunmayın. Buna benzer sayfa düzenleri oluşturmak için başka bir bölüme sahip olacağım.
+
+---
+
+düzen: Yayınla
+
+başlık: "Eski şehirlerin cazibesini yeniden keşfedebilir miyiz"
+
+tarih: YIL-AY-GÜN
+
+yazar: joejoe
+
+kategori: [ Jekyll, tutorial, blog, post, gaming, web-dev, nextjs ]
+
+Görüntü: assets/images/home.jpg
+
+Etiketler: [yapışkan]
+
+---
+    `,
+  },
+  {
     slug: 'logo',
     name: 'Logo',
     markdown: `

@@ -24,6 +24,37 @@ Install my-project with npm
     `,
   },
   {
+    slug: 'blog_post',
+    name: 'Blog Post',
+    markdown: `
+
+How do I use this?: Simple, most blogs these days uses [Front Matter](https://jekyllrb.com/docs/front-matter/) which is typically used to set a layout or other meta data. Markdown can be used however only used if this is going to be a blog post with headless cms's such as Jekyll, Hugo and so on.
+
+If you are planning on not using this as a blog post, please do not use this! IF you are, please delete lines 31-33 inside of your data\section-templates-en_EN.js folder.
+
+To get started, just fill in the lines below example: title: The Title of the Post, Author: Your Name and so on.
+Do not touch "layout: post". I will have another section for creating page layouts similar to this.
+
+---
+
+layout: post
+
+title: "Could we reinvent the charm of old cities"
+
+date: YEAR-MONTH-DAY
+
+author: joejoe
+
+categories: [ Jekyll, tutorial, blog, post, gaming, web-dev, nextjs ]
+
+image: assets/images/home.jpg
+
+tags: [sticky]
+
+---
+    `,
+  },
+  {
     slug: 'logo',
     name: 'Logo',
     markdown: `
@@ -219,6 +250,7 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 ## Authors
 
 - [@katherinepeterson](https://www.github.com/katherinepeterson)
+- [@icuemike](https://www.github.com/icuemike)
 
   `,
   },

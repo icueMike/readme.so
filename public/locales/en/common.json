@@ -1,8 +1,9 @@
 {
   "title": "The easiest way to create a",
-  "readme": "README",
-  "description": "Our simple editor allows you to quickly add and customize all the sections you need for your project's readme",
-  "get-started": "Get Started",
+  "readme": "Jekyll, Hugo, NEXT, Gatsby, Gridsome, Vue and README's",
+  "description": "Our simple editor allows you to quickly add and customize all the sections you need for your blog's post or project's readme",
+  "get-started": "Create a Post or Readme",
+  "original": "Get the original version without the blog posting or page creator. This is totally optional and both serves its purpose!",
   "100-free": "100% Free",
   "made-with-love": "Made with ",
   "by": " by",

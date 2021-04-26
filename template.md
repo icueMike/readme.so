@@ -4,6 +4,17 @@
 
 A brief description of this project and who it's for.
 
+## Blog Post
+
+---
+layout: post
+title:  "Could we reinvent the charm of old cities"
+author: jane
+categories: [ Jekyll, tutorial ]
+image: assets/images/home.jpg
+tags: [sticky]
+
+
 ## Installation
 
 Install my-project with npm

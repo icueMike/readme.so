@@ -93,7 +93,7 @@ const Home = () => {
                   <div className="flex items-center justify-between w-full md:w-auto">
                     <Link href="/">
                       <a className="flex items-center">
-                        <img
+                      <img
                           className="w-auto h-8 mt-1 cursor-pointer"
                           src="readme.svg"
                           alt="readme.so logo"
@@ -124,24 +124,20 @@ const Home = () => {
                 <div className="flex flex-col items-center">
                   <span className="inline-flex rounded-md shadow ">
                     <Link href="/editor">
-                      <a className="inline-flex items-center px-4 py-2 font-medium text-xl bg-emerald-500 hover:bg-emerald-400 border border-transparent rounded-lg text-white w-[250px] h-[54px] justify-center">
+                      <a className="inline-flex items-center px-4 py-2 font-medium text-xl bg-emerald-500 hover:bg-emerald-400 border border-transparent rounded-lg text-white w-[260px] h-[70px] justify-center">
                         {t('get-started')}
                       </a>
                     </Link>
                   </span>
+                  <br />
+                  {t('original')}
                   <a
                     className="mt-3"
-                    href="https://www.producthunt.com/posts/readme-so?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-readme-so"
+                    href="https://github.com/katherinepeterson/readme.so"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >
-                    <img
-                      src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=291731&theme=light"
-                      alt="readme.so - Easily create the perfect readme for your project | Product Hunt"
-                      style={{ width: '250px', height: '54px' }}
-                      width="250"
-                      height="54"
-                    />
+                  > 
+                    <img src="https://img.icons8.com/ios-filled/100/000000/github.png"/>
                   </a>
                 </div>
               </div>
@@ -174,12 +170,20 @@ const Home = () => {
                 rel="noopener noreferrer"
                 href="https://twitter.com/katherinecodes"
               >
-                Katherine Peterson
+                Katherine Peterson  
+              </a> < 
+              and />  and <a
+                className="hover:text-emerald-500"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/icuemike"
+              >
+                  Michael Moore
               </a>
             </h2>
             <div className="flex justify-center mt-4">
               <a
-                href="https://github.com/katherinepeterson/readme.so"
+                href="https://github.com/katherinecodes/readme.so"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="github logo"

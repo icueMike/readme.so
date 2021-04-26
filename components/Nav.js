@@ -11,7 +11,7 @@ export const Nav = ({ selectedSectionSlugs, setShowModal, getTemplate }) => {
     const a = document.createElement('a')
     const blob = new Blob([markdown])
     a.href = URL.createObjectURL(blob)
-    a.download = 'README.md'
+    a.download = 'RenameThisFile.md'
     a.click()
     setShowModal(true)
   }
@@ -23,7 +23,7 @@ export const Nav = ({ selectedSectionSlugs, setShowModal, getTemplate }) => {
       <Link href="/">
         <a className="focus:outline-none focus:ring-2 focus:ring-emerald-400 flex items-center">
           <img className="w-auto h-8 mt-1" src="readme.svg" alt="readme.so logo" />
-          <span className="ml-2 -mb-2 text-white logo text-md">readme.so</span>
+          <span className="ml-2 -mb-2 text-white logo text-md">Admin Panel</span>
         </a>
       </Link>
       <button
